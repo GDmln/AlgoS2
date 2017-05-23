@@ -491,7 +491,7 @@ void deplacement(int NbLigne, int NbColonne, sinfo Grille[NbLigne][NbColonne], i
 {
     int NewPosX, NewPosY;
     int Dif;
-    for (i = 0 && Jour > 0; i < NbLigne; i++)
+    for (i = 0; i < NbLigne; i++)
     {
         for (j = 0; j < NbColonne; j++)
         {
